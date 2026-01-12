@@ -1,2 +1,12 @@
 venv
 DEPLOYMENT.md
+
+# Secrets - NEVER commit these!
+.streamlit/secrets.toml
+*.env
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
